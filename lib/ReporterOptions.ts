@@ -27,7 +27,7 @@ export default class ReporterOptions {
   public seleniumCommandsLogLevel = LEVEL.DEBUG;
   public parseTagsFromTestTitle = false;
   public setRetryTrue = false;
-  public sauceLabOptions?: SauceLabOptions;
+  public sauceLabOptions?: SauceLabOptions
   public cucumberNestedSteps = false;
   public autoAttachCucumberFeatureToScenario = false;
   public sanitizeErrorMessages = true;
